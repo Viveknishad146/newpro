@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>IMS</title>
+<style>
+h2{
+background-color:rgb(25,255,0);
+}
+p{
+background-color:rgb(255,255,0);
+}
+</style>
+</head>
+<body>
+<script src="mv.js">
+</script>
+<?php
+include 'ims.php';
+?>
+<form method="POST" action="ims.php" onsubmit="return myfun()">
+<fieldset>
+<CENTER><legend><h1>INVENTORY MANAGEMENT SYSTEM</h1></legend>
+<h2>User Name</h2><input type="text" id="mobilenumber" placeholder=" enter registerd mobile no." value=""></br>
+	    <span id="msg"></span><br></br>
+<h2>Password</h2><input type="text" id="password" placeholder=" enter valid password" value=""></br>
+	    <span id="pw"></span><br></br>
+<input type="submit" value="login"></center>
+</form>
+</fieldset>
+</body>
+</html>
